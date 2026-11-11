@@ -1,0 +1,42 @@
+Concepts To Complete
+=====================
+
+    -> Arbitrary Positional - Arbitrary Keyword (pending)
+
+    -> Modules & Packages (pending)
+
+    -> File Management - json (pending)
+
+    -> OOP (pending)
+
+
+Class - 15
+============
+
+    -> Based On Arguments Passed To Functions, We Got Five Types 
+
+        -> Positional Arguments 
+
+        -> Keyword Arguments 
+
+        -> Default Arguments 
+
+        -> Arbitrary Positional Arguments 
+
+        -> Arbitrary Keyword Arguments    
+
+    
+    -> Arbitrary Positional Arguments 
+
+        -> Arbitrary Means Random / Unknown 
+
+        -> In Python, Arbitrary Positional Arguments Allows A Function To Accept 
+        Unknown Number Of Positional Arguments
+
+        -> This Is Achieved By Placing an * symbol before parameter name in Function Definition 
+
+        -> The parameter will collect all the positional Arguments into Tuple Data Structure
+
+        
+
+
