@@ -38,5 +38,114 @@ Class - 15
         -> The parameter will collect all the positional Arguments into Tuple Data Structure
 
         
+Class - 16
+============
+
+    -> Arbitrary Keyword Arguments    
+
+        -> Arbitrary means unknown or random 
+
+        -> In Python, arbitrary keyword arguments allow a function to accept 
+        a unknown number of Keyword arguments. 
+
+        -> This is achieved by placing an asterisk (**) before a parameter name 
+        in the function definition.
+
+        -> The parameter will collect all the positional Arguments into Dictionary Data Structure
 
 
+    -> Reusability
+
+        -> A Block Of Code - Functions (call with function_name)
+
+        -> A File Of Code - Modules (call with file_name)
+
+        -> A Folder Of Code - Packages (call with folder_name)
+
+    
+    -> From Learning Perspective 
+
+        -> Content -> File -> Folder [ Function -> Module -> Package]
+
+    -> NOTE: In Real World, Packages Contain Modules and Modules Contain Functions 
+
+        -> Folder -> File -> Content [ Package -> Module -> Function]
+
+
+    -> Modules 
+
+        -> A Module is a "Simple Python File" which contains python definitions 
+
+        -> Syntax 
+
+            -> import module (imports complete module i.e loads all the functionalities)
+
+            -> from module import specific_functionality  (imports only what you need) # Recommended
+
+        
+        -> Inbuilt Modules 
+
+                -> Provided as part of Standard Python Library 
+
+                -> math module provides access to common mathematical functions and constants
+
+                -> Python Inbuilt Modules - https://docs.python.org/3/py-modindex.html
+
+            
+        -> User Defined Modules 
+
+                -> Created By Developers For Custom Requirements 
+                
+                -> NOTE: Here module name is nothing but file name 
+
+                -> Requirement: User/Customer needs arithmetic operations and profile related information
+
+
+
+        -> External Modules 
+
+                -> Provided By 3rd Party Vendors 
+
+                    -> https://pypi.org/
+
+                -> The Python Package Index (PyPI) is a repository of software for the Python programming language.
+
+                -> PyPI helps you find and install software developed and shared by the Python community. 
+            
+                -> NOTE: To work with External Modules, we need pip 
+
+                    -> pip: PIP most commonly refers to Pip Installs Packages, 
+                    the standard package manager used to install and manage software libraries 
+                    in the Python programming language.
+
+                        -> Syntax 
+
+                            -> pip install software_library 
+
+                            -> pip install pandas 
+                            -> pip install numpy 
+                            -> pip install etc 
+
+                    -> Data Analyst 
+
+                        -> https://pypi.org/project/pandas/
+
+                        -> pip install pandas 
+
+                    -> Full Stack Developer 
+
+                        -> https://pypi.org/project/requests/
+
+                        -> pip install requests 
+
+                    -> DevOps / Cloud Engineer 
+
+                        -> https://pypi.org/project/boto3/
+
+                        -> pip install boto3
+
+                                -> etc 
+
+                -> NOTE: Use case for an external module 
+
+                    -> https://medium.com/@noorfatimaafzalbutt/fetching-data-through-apis-with-python-a-comprehensive-guide-e3b335de0067
