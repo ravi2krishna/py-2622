@@ -288,3 +288,25 @@ Class - 18
         -> https://d33wubrfki0l68.cloudfront.net/0e4bef351d9e23cdb33adba9e491f73db3c9c50c/7dcfe/data.png
 
         -> https://jsoneditoronline.org/images/news/smart_json_formatting.png
+
+
+Class - 19
+============
+
+    -> Python has provided "json" modules to work with JSON Data / Files 
+
+    -> Python's built-in json module allows you to serialize (convert Python objects into JSON) and 
+    deserialize (parse JSON back into Python objects).
+
+
+    -> JSON operations 
+
+        -> json.dump() - Serializes a Python object to a JSON-formatted file (writes to a file pointer).
+
+        -> json.load()	Deserializes a JSON-formatted file to a Python object (reads from a file pointer).
+
+        -> json.dumps()	Serializes a Python object to a JSON-formatted string ("dump string").
+
+        -> json.loads()	Deserializes a JSON-formatted string to a Python object ("load string").
+
+
